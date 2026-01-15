@@ -6,37 +6,25 @@
 
 ## Technical highlights
 
-
-
-
-
+- **State Management & Side Effects**
 
 - **useMemo** — memoizes expensive portfolio calculations to reduce JS overhead.
 
-
 - **useCallback** — stable function refs for `FlatList`.
 
-
-
 - **FlatList** — optimized `keyExtractor` and `renderItem`.
-
 
 ## Architecture & testing
 
 - **React Native CLI (Bare)** — full access to native code and configurations.
 
-
 - **New Architecture (JSI/Fabric)** — ready for synchronous JS↔Native communication.
 
-
 - **Unit testing (Jest)** — automated tests for utilities and logic.
-
-
 
 ## Backend integration
 
 - **Node.js / Express** — lightweight REST API for stock data.
-
 
 - **Android emulator networking** — use `10.0.2.2` to reach the host machine from the emulator.
 
@@ -60,21 +48,13 @@ Android (debug) build:
 cd android && ./gradlew assembleDebug
 ```
 
-
-
 Example backend start (from `stock-backend`):
 
 ```bash
 node server.js
 ```
 
-
-
-
 ## Folder structure
-
-
-
 
 Top-level
 - `README.md` — this file
