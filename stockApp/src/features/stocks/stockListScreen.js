@@ -37,7 +37,7 @@ const StockListScreen = () => {
         <FlatList 
           data={stocks} 
           renderItem={renderView} 
-          keyExtractor={(item) => item.id} // Session 05 Optimization
+          keyExtractor={(item) => item.id}
         />
       )}
     </View>
